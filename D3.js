@@ -158,15 +158,15 @@ for (i = 0; i < starWarsCharacters.length; i++) {
     case "brown":
       eyeColor.brown.push(starWarsCharacters[i])
       break
-    case "yellow":
-      eyeColor.red[i].push(starWarsCharacters[i])
+    case "red":
+      eyeColor.red.push(starWarsCharacters[i])
       break
-    case "Blue-gray":
-      eyeColor.blueGrey[i].push(starWarsCharacters[i])
+    case "blue-gray":
+      eyeColor.blueGrey.push(starWarsCharacters[i])
       break
   }
 }
-
+console.log(eyeColor)
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
 */
